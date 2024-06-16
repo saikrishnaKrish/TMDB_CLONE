@@ -1,0 +1,25 @@
+
+.header{
+    box-sizing: border-box;
+}
+  .header > nav >ul {
+    background-color: #fffbfb;
+    color: #0c0c0c;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+
+.header >nav>ul>li > a{
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+    padding: 2px 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
